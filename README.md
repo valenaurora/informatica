@@ -1,2 +1,1 @@
-# informatica
-# informatica
+# informatica - tp por Valentina Aurora
