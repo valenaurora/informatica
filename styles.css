@@ -228,6 +228,10 @@ a {
     background-position: center;
     background-repeat: no-repeat;
   }
+  .header_title {
+    font-size: 48px;
+    line-height: 40px;
+  }
   .credits {
     display: flex;
     flex-direction: column;
@@ -251,5 +255,12 @@ a {
     gap: 12px;
     width: 90%;
   }
+  .book_container {
+    background-image: url("");
+  }
+  .book_1 {
+    max-width: 300px;
+  }
 }
+
 
