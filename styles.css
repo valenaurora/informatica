@@ -221,3 +221,35 @@ a {
 .volver:hover {
   color: brown;
 }
+
+@media (max-width: 600px) {
+  .header {
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .phrase {
+    text-align: center;
+  }
+  .lines {
+    display: none;
+  }
+  .cards_container {
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .cards_container {
+    padding: 12px;
+  }
+  .card_container {
+    gap: 12px;
+    width: 90%;
+  }
+}
+
